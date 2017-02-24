@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class HelloWorld extends React.Component {
+class Hello extends React.Component {
   render() {
-    return <h1> Hello World!</h1>;
+    return <h1>Hello {this.props.name}!</h1>;
   }
 }
 
 class App extends React.Component {
   render() {
-    return <HelloWorld/>;
+    return <Hello name={'Albert'}/>;
   }
 }
 
