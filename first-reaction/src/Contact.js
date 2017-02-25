@@ -5,7 +5,7 @@ class Contact extends Component {
     return (
       <li className="contact">
         <div className="image-cropper">
-          <img src="{this.props.avatar}" alt="avatar"/>
+          <img src={this.props.avatar} alt="avatar"/>
         </div>
         <div className="contact-info">
           <h2>{this.props.name}</h2>
